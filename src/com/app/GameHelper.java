@@ -68,7 +68,7 @@ public class GameHelper {
 			chars.remove(Character.valueOf(c));
 			return true;
 		} else if (chars.contains('_')) {
-			chars.remove('_');
+			chars.remove(Character.valueOf('_'));
 			return true;
 		} else {
 			return false;
